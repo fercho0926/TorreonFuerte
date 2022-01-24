@@ -13,6 +13,6 @@ namespace TorreonFuerte.Models
         public int IdCell { get; set; }
         public int  NetworkCell { get; set; }
         public string NameCell { get; set; }
-        public Members NetworkLead { get; set; }
+        public Members Members { get; set; }
     }
 }
