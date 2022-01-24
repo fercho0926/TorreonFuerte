@@ -247,3 +247,4 @@ C:\WorkSpaces\git\TorreonFuerte\TorreonFuerte\obj\Debug\net5.0\Razor\Views\Membe
 C:\WorkSpaces\git\TorreonFuerte\TorreonFuerte\obj\Debug\net5.0\Razor\Views\Members\Details.cshtml.g.cs
 C:\WorkSpaces\git\TorreonFuerte\TorreonFuerte\obj\Debug\net5.0\Razor\Views\Members\Edit.cshtml.g.cs
 C:\WorkSpaces\git\TorreonFuerte\TorreonFuerte\obj\Debug\net5.0\Razor\Views\Members\Index.cshtml.g.cs
+C:\WorkSpaces\git\TorreonFuerte\TorreonFuerte\bin\Debug\net5.0\libman.json

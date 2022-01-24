@@ -21,18 +21,11 @@
             <th>
                 @Html.DisplayNameFor(model => model.LastName)
             </th>
-            <th>
-                @*@Html.DisplayNameFor(model => model.DateBirth)*@
-            </th>
+          
             <th>
                 @Html.DisplayNameFor(model => model.EnumCities)
             </th>
-            <th>
-                @*@Html.DisplayNameFor(model => model.Address)*@
-            </th>
-            <th>
-                @*@Html.DisplayNameFor(model => model.Neighborhood)*@
-            </th>
+         
             <th>
                 @Html.DisplayNameFor(model => model.phone)
             </th>
@@ -58,18 +51,11 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.LastName)
                 </td>
-                <td>
-                    @*@Html.DisplayFor(modelItem => item.DateBirth)*@
-                </td>
+            
                 <td>
                     @Html.DisplayFor(modelItem => item.EnumCities)
                 </td>
-                <td>
-                    @*@Html.DisplayFor(modelItem => item.Address)*@
-                </td>
-                <td>
-                    @*@Html.DisplayFor(modelItem => item.Neighborhood)*@
-                </td>
+             
                 <td>
                     @Html.DisplayFor(modelItem => item.phone)
                 </td>
@@ -80,10 +66,9 @@
                     @Html.DisplayFor(modelItem => item.EnumLevels)
                 </td>
                 <td>
-                    <a class="btn btn-outline-warning" asp-action="Edit" asp-route-id="@item.IdMenbers">Edit</a>
-                    <a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.IdMenbers">Details</a>
-                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.IdMenbers">Delete</a>
-                    @Html.ActionLink(" ", "Details", new { id = item.IdMenbers }, new { @class = "btn btn-mini btn-success icon-eye-open bigger-120" })
+                    <a class="fa fa-eye" asp-action="Details" asp-route-id="@item.IdMenbers"></a>
+                    <a class="fa fa-pencil-alt" asp-action="Edit" asp-route-id="@item.IdMenbers"></a>
+                    @*<a class="fa fa-trash-alt" asp-action="Delete" asp-route-id="@item.IdMenbers"></a>*@
 
                 </td>
             </tr>
